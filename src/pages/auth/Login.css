@@ -1,0 +1,14 @@
+.login{ 
+    background: url('../../assets/imagenFondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .leading-loose{
+    background: #3434349c;
+    padding: 1em;
+    border-radius: 1em;
+}
+  .logoImg{
+    width: 13em;
+  }

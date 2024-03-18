@@ -1,0 +1,51 @@
+.contentGeneralCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contentCard {
+    padding: 1em;
+    border-radius: 1em;
+    border: 5px solid #c5c5c5;
+    box-shadow: 0px 0px 4px 1px #636363;
+    margin: 1em;
+    background: white;
+    min-width: 14.5em;
+    max-width: 14.5em;
+}
+
+.contentImgCard {
+    text-align: center;
+}
+
+.styImgCard {
+    border-radius: 1em;
+    box-shadow: 0px 0px 4px 2px #c5c5c5;
+    width: 9em;
+}
+
+.StylContent {
+    height: 100vh;
+    overflow: auto;
+    padding-top: 5em;
+}
+
+@media screen and (max-width:700px) {
+    .styImgCard {
+        width: 100% !important;
+    }
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: rgb(207, 207, 207);
+    border-radius: 10px;
+  }
